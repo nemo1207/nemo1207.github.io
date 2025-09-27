@@ -81,6 +81,10 @@ a {
 		margin: 0 0 4em 0;
 	}
 
+	p {
+   margin-bottom: 50px;
+    }
+
 	.btn {
 		border: 1px solid #ddd;
 		display: block;
