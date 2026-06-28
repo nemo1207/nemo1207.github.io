@@ -97,6 +97,7 @@ a {
 }
 
 .profile-card small {
+	font-size: 0.72rem;
 	color: rgba(0,0,0,.55);
 }
 
