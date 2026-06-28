@@ -99,18 +99,3 @@ a {
 .profile-card small {
 	font-size: 0.72rem;
 }
-
-@media (max-width: 600px) {
-	body {
-		background-position: center center;
-	}
-
-	.profile-card {
-		width: 90%;
-		padding: 60px 20px 40px;
-	}
-
-	.profile-card p {
-		margin-bottom: 30px;
-	}
-}
