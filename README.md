@@ -4,10 +4,7 @@ A personal website by **3pm**.
 
 ## About
 
-3pm is a personal website featuring interests such as:
-
-* Walking
-* Jigsaw puzzles
+3pm is a personal website.
 
 ## Technologies
 
