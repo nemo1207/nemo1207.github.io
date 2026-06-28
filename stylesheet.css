@@ -50,22 +50,20 @@ a {
 .profile-card {
 	background-color: rgba(255,255,255,0.60);
 	backdrop-filter: blur(6px);
-	bottom: 0;
 	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
 	box-shadow: 0 0 3px rgba(0, 0, 0, .2);
 	color: #555;
-	height: 39em;
-	left: 0;
-	margin: auto;
 	max-width: 32em;
+	width: 90%;
 	position: fixed;
-	right: 0;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 	text-align: center;
-	top: 0;
-	padding-top:150px;
+	padding: 90px 24px 56px;
 }
 
-	.profile-card h1 {
+.profile-card h1 {
 		color: #000;
 		font-size: 2em;
 		line-height: 1.2em;
@@ -74,48 +72,44 @@ a {
 		letter-spacing: 0.06em;
 	}
 
-	.profile-card h2 {
+.profile-card h2 {
 		font-size: 1.25em;
 		line-height: 1.2em;
 		margin: 0 0 4em 0;
 	}
 
-	.profile-card p {
-		margin-bottom: 50px;
-    }
+.profile-card p {
+	margin: 16px 0 48px;
+}
 
-	.profile-card .btn {
-		border: 1px solid rgba(0,0,0,0.18);
-		display: block;
-		margin: 0 auto 2em auto;
-		padding: .5em 0;
-		text-transform: uppercase;
-		width: 90%;
-	}
+.profile-card .btn {
+	border: 1px solid rgba(0,0,0,0.18);
+	display: block;
+	margin: 0 auto 2em auto;
+	padding: .5em 0;
+	text-transform: uppercase;
+	width: 90%;
+}
 
-	.profile-card .btn2 {
-		border: 1px solid #ddd;
-		display: block;
-		margin: 0 auto 2em auto;
-		padding: .5em 0;
-		width: 90%;
-	}
+.profile-card .btn:last-of-type {
+	margin-bottom: 44px;
+}
 
-	@media (max-width: 600px) {
+.profile-card small {
+	display: block;
+	font-size: 11px;
+	line-height: 1.6;
+	color: rgba(0,0,0,.55);
+}
 
+@media (max-width: 600px) {
 	body {
 		background-position: center center;
 	}
 
 	.profile-card {
 		width: 90%;
-		height: auto;
-		min-height: 28em;
-		padding-top: 60px;
-		padding-bottom: 40px;
-
-		top: 50%;
-		transform: translateY(-50%);
+		padding: 60px 20px 40px;
 	}
 
 	.profile-card p {
