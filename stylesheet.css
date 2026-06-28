@@ -64,13 +64,13 @@ a {
 }
 
 .profile-card h1 {
-		color: #222;
+		color: #333;
 		font-weight: 600;
 		font-size: 2em;
 		line-height: 1.2em;
 		margin: 0;
 		text-transform: uppercase;
-		letter-spacing: 0.06em;
+		letter-spacing: 0.07em;
 	}
 
 .profile-card h2 {
