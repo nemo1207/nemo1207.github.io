@@ -48,13 +48,19 @@ a {
 /*---------- PROFILE_CARD ----------*/
 
 .profile-card {
-  width: 420px;
-  max-width: 85vw;
-  padding: 42px 38px 34px;
-  background-color: rgba(255, 255, 255, 0.46);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+	background-color: rgba(255, 255, 255, 0.46);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+	color: #555;
+	max-width: 32em;
+	width: 90%;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 90px 24px 56px;
 }
 
 .profile-card h1 {
