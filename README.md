@@ -13,7 +13,6 @@ A personal website by **3pm**.
 
 * HTML5
 * CSS3
-* JavaScript
 
 ## Credits
 
