@@ -1,7 +1,5 @@
 # 3pm
 
-A personal website by **3pm**.
-
 ## About
 
 3pm is a personal website.
